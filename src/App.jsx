@@ -8,6 +8,8 @@ import Toggle from "./Practice/StatePractice/Toggle";
 import TextInput from "./Practice/StatePractice/TextInput";
 import ChangeBg from "./Practice/StatePractice/ChangeBg";
 import TodoList from "./Practice/StatePractice/TodoList";
+import LikeButton from "./Practice/StatePractice/LikeButton";
+import TogglePasword from "./Practice/StatePractice/TogglePasword";
 
 function App() {
   return (
@@ -37,6 +39,14 @@ function App() {
       a task Button to add the task List of tasks displayed below Optional: Add
       a delete button for each task
       <TodoList />
+      Qno 6. <h2>Like Button</h2> Make a Like button that toggles between "Liked
+      ❤️" and "Like 🤍" using state.
+      <LikeButton />
+      <hr />
+      Qno 7. <h2>Show Password Toggle</h2> Create an input field of type
+      password. Add a checkbox or button to toggle visibility (change type to
+      text)
+      <TogglePasword />
     </>
   );
 }

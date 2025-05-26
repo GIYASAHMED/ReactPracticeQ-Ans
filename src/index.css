@@ -106,3 +106,6 @@ input {
   border: 1px solid white;
   margin-top: 20px;
 }
+i {
+  cursor: pointer;
+}
