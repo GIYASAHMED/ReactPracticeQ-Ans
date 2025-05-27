@@ -58,7 +58,7 @@ const LikeButton = () => {
           }}
         >
           <i
-            class="ri-heart-fill"
+            className="ri-heart-fill"
             style={{ fontSize: "40px", color: "white" }}
             onClick={likeToggle}
           ></i>
