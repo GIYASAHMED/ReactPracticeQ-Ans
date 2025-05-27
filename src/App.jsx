@@ -10,6 +10,9 @@ import ChangeBg from "./Practice/StatePractice/ChangeBg";
 import TodoList from "./Practice/StatePractice/TodoList";
 import LikeButton from "./Practice/StatePractice/LikeButton";
 import TogglePasword from "./Practice/StatePractice/TogglePasword";
+import LightDarkToggle from "./Practice/StatePractice/LightDarkToggle";
+import Quiz from "./Practice/StatePractice/Quiz";
+import TextCounter from "./Practice/StatePractice/TextCounter";
 
 function App() {
   return (
@@ -47,6 +50,34 @@ function App() {
       password. Add a checkbox or button to toggle visibility (change type to
       text)
       <TogglePasword />
+      <hr />
+      Qno 8. <h2>Light/Dark Mode Toggle</h2> Use a toggle button to switch the
+      theme of a box or whole component between light and dark.
+      <LightDarkToggle />
+      <hr />
+      Qno 9. <h2>Simple Quiz (Single Question)</h2> Show one question with
+      options. Store the selected option using useState Show a message like
+      “Correct!” or “Try Again”
+      <Quiz />
+      <hr />
+      Qno 10. <h2>Character Counter</h2> Make a textarea that shows a live count
+      of the number of characters typed.
+      <TextCounter />
+      <h2
+        style={{
+          text: "bold",
+          color: "darkblue",
+          backgroundColor: "white",
+          padding: "8px",
+          borderRadius: "20px",
+        }}
+      >
+        🎉 Congratulations on successfully completing all 10 React useState
+        practice questions! You've taken a solid step toward mastering state
+        management in React. Your dedication and hands-on approach show real
+        progress. Keep building, keep exploring — this foundation will empower
+        you to create amazing interactive web apps. Great job, coder! 🚀
+      </h2>
     </>
   );
 }

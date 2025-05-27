@@ -109,3 +109,7 @@ input {
 i {
   cursor: pointer;
 }
+.eye i {
+  font-size: 30px;
+  color: chartreuse;
+}
